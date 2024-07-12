@@ -23,7 +23,7 @@ public class TestBase {
     // create method for closing site after every testing
     @AfterSuite
     public void tearDown(){
-       // app.stop();
+       app.stop();
     }
 
 
