@@ -49,25 +49,25 @@ public class ListenerWD extends AbstractWebDriverEventListener {
     @Override
     public void beforeFindBy(By by, WebElement element, WebDriver driver) {
         super.beforeFindBy(by, element, driver);
-        logger.info("Before finding the element -- " + element + " -- by -- " + by + " --");
+        logger.info("Before finding the element by --> " + by);
     }
 
     @Override
     public void afterFindBy(By by, WebElement element, WebDriver driver) {
         super.afterFindBy(by, element, driver);
-        logger.info("The element -- " + element + " -- found successfully");
+        logger.info("The element -- " + by + " -- found successfully");
     }
 
     @Override
     public void beforeClickOn(WebElement element, WebDriver driver) {
         super.beforeClickOn(element, driver);
-        logger.info("Start Click method on the element -- "+element+" --");
+        logger.info("Start Click method on the element");
     }
 
     @Override
     public void afterClickOn(WebElement element, WebDriver driver) {
         super.afterClickOn(element, driver);
-        logger.info("Done Click method on the element -- "+element+" --");
+        logger.info("Done Click method on the element");
     }
 
     @Override
@@ -81,12 +81,12 @@ public class ListenerWD extends AbstractWebDriverEventListener {
     @Override
     public void beforeGetText(WebElement element, WebDriver driver) {
         super.beforeGetText(element, driver);
-        logger.info("Get text from the element -- "+element+" -- with text: --"+element.getText());
+        logger.info("Get text from the element with text: --"+element.getText());
     }
 
     @Override
     public void afterGetText(WebElement element, WebDriver driver, String text) {
         super.afterGetText(element, driver, text);
-        logger.info("Got the text from the element -- "+element+" --successfully");
+        logger.info("Got the text from the element successfully");
     }
 }
