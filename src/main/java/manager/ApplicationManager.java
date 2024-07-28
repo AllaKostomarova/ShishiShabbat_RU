@@ -38,7 +38,7 @@ public class ApplicationManager {
         wd.register(new ListenerWD(logger));
 
         // open the site
-        wd.navigate().to(Urls.testStend);
+        wd.navigate().to(Urls.ru_testStend);
         logger.info("Testing starts");
 
         // site options

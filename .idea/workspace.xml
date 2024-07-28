@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdff3887-6dbf-46e6-93b0-3c0bc38f04b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Urls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="bdff3887-6dbf-46e6-93b0-3c0bc38f04b2" name="Changes" comment="Class Urls is added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperRuHeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperRuHeader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/ListenerWD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ListenerWD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/FirstTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RuHeaderTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Urls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Urls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RuHeaderTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RuHeaderTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,47 +47,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.FirstTesting.firstTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RuHeaderTests.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RuHeaderTests.transitionToEventsPage_positiveTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RuHeaderTests.transitionToFacebook_positiveTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.file-colors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.FirstTesting.firstTest.executor": "Run",
+    "Gradle.RuHeaderTests.executor": "Run",
+    "Gradle.RuHeaderTests.searchFieldAppears_positiveTest.executor": "Run",
+    "Gradle.RuHeaderTests.switchToEnglishVersion_positiveTest.executor": "Run",
+    "Gradle.RuHeaderTests.transitionToAuthCreate_UserPage_positiveTest.executor": "Run",
+    "Gradle.RuHeaderTests.transitionToAuthLoginPage_positiveTest.executor": "Run",
+    "Gradle.RuHeaderTests.transitionToEventsPage_positiveTest.executor": "Run",
+    "Gradle.RuHeaderTests.transitionToFacebook_positiveTest.executor": "Run",
+    "Gradle.RuHeaderTests.transitionToJGive_positiveTest.executor": "Run",
+    "Gradle.RuHeaderTests.transitionToYouTube_positiveTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.file-colors"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.RuHeaderTests">
-    <configuration name="FirstTesting.firstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.FirstTesting.firstTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Gradle.RuHeaderTests.transitionToAuthCreate_UserPage_positiveTest">
     <configuration name="RuHeaderTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -114,7 +94,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RuHeaderTests.transitionToEventsPage_positiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RuHeaderTests.switchToEnglishVersion_positiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -127,7 +107,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.RuHeaderTests.transitionToEventsPage_positiveTest&quot;" />
+            <option value="&quot;tests.RuHeaderTests.switchToEnglishVersion_positiveTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -138,7 +118,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RuHeaderTests.transitionToFacebook_positiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RuHeaderTests.transitionToAuthCreate_UserPage_positiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -151,7 +131,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.RuHeaderTests.transitionToFacebook_positiveTest&quot;" />
+            <option value="&quot;tests.RuHeaderTests.transitionToAuthCreate_UserPage_positiveTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RuHeaderTests.transitionToAuthLoginPage_positiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.RuHeaderTests.transitionToAuthLoginPage_positiveTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RuHeaderTests.transitionToYouTube_positiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.RuHeaderTests.transitionToYouTube_positiveTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -164,10 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RuHeaderTests.transitionToAuthCreate_UserPage_positiveTest" />
+        <item itemvalue="Gradle.RuHeaderTests.switchToEnglishVersion_positiveTest" />
+        <item itemvalue="Gradle.RuHeaderTests.transitionToAuthLoginPage_positiveTest" />
+        <item itemvalue="Gradle.RuHeaderTests.transitionToYouTube_positiveTest" />
         <item itemvalue="Gradle.RuHeaderTests" />
-        <item itemvalue="Gradle.RuHeaderTests.transitionToEventsPage_positiveTest" />
-        <item itemvalue="Gradle.RuHeaderTests.transitionToFacebook_positiveTest" />
-        <item itemvalue="Gradle.FirstTesting.firstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -187,15 +216,37 @@
       <option name="presentableId" value="Default" />
       <updated>1720640155709</updated>
     </task>
+    <task id="LOCAL-00001" summary="Class Urls is added">
+      <option name="closed" value="true" />
+      <created>1721225084696</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721225084696</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Class Urls is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class Urls is added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/RuHeaderTests.java</url>
+          <line>30</line>
+          <properties class="tests.RuHeaderTests" method="transitionToYouTube_positiveTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/tests/RuHeaderTests.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
+          <line>149</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

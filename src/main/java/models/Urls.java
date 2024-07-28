@@ -1,24 +1,26 @@
 package models;
 public class Urls {
 
-    //public static String testStend = "https://t.shishi.co.il/";
-    public static String testStend = "https://shishi.co.il/";
+    public static String ru_testStend = "https://t.shishi.co.il/";
+    //public static String ru_testStend = "https://shishi.co.il/";
     public static String en_testStend = "https://en.shishi.co.il/";
 
     // ======== RU version ===========
-    public static String eventsUrl = testStend+"events/";
-    public static String ru_photoUrl = testStend+"pages/2";
-    public static String ru_videoUrl = testStend+"pages/3";
-    public static String ru_aboutUsUrl = testStend+"pages/4";
-    public static String ru_contactsUrl = testStend+"pages/11";
+    public static String ru_eventsUrl = ru_testStend+"events/";
+    public static String ru_photoUrl = ru_testStend+"pages/2";
+    public static String ru_videoUrl = ru_testStend+"pages/3";
+    public static String ru_aboutUsUrl = ru_testStend+"pages/4";
+    public static String ru_contactsUrl = ru_testStend+"pages/11";
+    public static String ru_signInUrl = ru_testStend+"auth/login/";
+    public static String ru_signUpUrl = ru_testStend+"auth/create_user/";
 
     // ======= Ru version Auth user ===========
 
     // ======== En version ===========
     public static String en_aboutUsUrl;
-    public static String activitiesUrl;
-    public static String ourTeamUrl;
-    public static String ourPartnersUrl;
+    public static String en_activitiesUrl;
+    public static String en_ourTeamUrl;
+    public static String en_ourPartnersUrl;
     public static String en_photoUrl;
     public static String en_videoUrl;
     public static String en_contactUsUrl;

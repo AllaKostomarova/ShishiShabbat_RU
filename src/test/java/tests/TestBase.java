@@ -20,6 +20,7 @@ public class TestBase {
     // Show method name in logs
     @BeforeMethod
     public void methodNameLogger(Method method){
+        logger.info("-".repeat(20));
         logger.info("Name of method --> "+method.getName());
     }
 
@@ -32,7 +33,7 @@ public class TestBase {
     // create method for closing site after every testing
     @AfterSuite
     public void tearDown(){
-       // app.stop();
+       app.stop();
     }
 
 

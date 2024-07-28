@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -49,9 +50,16 @@ public class HelperBase {
         Set<String> tabs = wd.getWindowHandles();
         for (String t: tabs){
             wd.switchTo().window(t);
-            if(wd.getCurrentUrl().equals(Urls.testStend))
+            if(wd.getCurrentUrl().equals(Urls.ru_testStend))
                 break;
         }
+    }
+
+    /**
+     * The method returns to the first tab
+     */
+    public void comeBack(){
+        wd.navigate().back();
     }
 
     /**
@@ -80,8 +88,17 @@ public class HelperBase {
      * by clicking on the Shishi Shabbat logo
      */
     public void goToHomePage(){
-        wd.navigate().to(Urls.testStend);
+        wd.get(Urls.ru_testStend);
         //click(By.xpath("//a[@href and @class='logo']"));
+    }
+
+    /**
+     * The method returns True if the web element is present on the page
+     * The method returns False if the web element is absent on the page
+     */
+    public boolean isElementIsPresent(By locator){
+        List<WebElement> elements = wd.findElements(locator);
+        return elements.size()>0;
     }
 
 

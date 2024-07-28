@@ -16,13 +16,15 @@ public class HelperRuHeader extends HelperBase{
     By logoShiShiShabbat = By.xpath("//a[@href and @class='logo']");
     // ------- social networks --------
     By facebookTitle = By.xpath("//div[@class='large-7 cell']/ul/li/a/i[@class='fa fa-facebook']");
-    By youtubeTitle = By.xpath("//div[@class='large-7 cell']/ul/li/a/i[@class='fa fa-youtube']");
+    By youtubeTitle = By.xpath("//div[@class='large-7 cell']/ul/li/a/i[@class='fa fa-youtube-play']");
     By instagramTitle = By.xpath("//div[@class='large-7 cell']/ul/li/a/i[@class='fa fa-instagram']");
     By telegramTitle = By.xpath("//div[@class='large-7 cell']/ul/li/a/i[@class='fa fa-telegram']");
 
     // ------login and registration buttons -------
-    By loginBtn = By.xpath("//a[@class='small button' and text()='Вход']");
-    By registrationBtn = By.xpath("//a[@class='small button' and text()='Регистрация']");
+    By signInBtn = By.xpath("//li[5]/a[@class='small button']");
+    //By signInBtn = By.xpath("//a[@class='small button' and text()='Вход']");
+    By registrationBtn = By.xpath("//li[6]/a[@class='small button']");
+    //By registrationBtn = By.xpath("//a[@class='small button' and text()='Регистрация']");
 
     // ------title of the header ------
     By eventsTitle = By.xpath("//div[@class='medium-10 large-10 cell']/ul/li[1]");
@@ -32,13 +34,18 @@ public class HelperRuHeader extends HelperBase{
     By contactsTitle = By.xpath("//div[@class='medium-10 large-10 cell']/ul/li[5]");
 
     // ----- buttons of the header ------
-    By donationBtn = By.xpath("//div[@class='medium-10 large-10 cell']/ul/li[6]");
+    // "ПОДДЕРЖАТЬ"
+    By supportBtn = By.xpath("//div[@class='medium-10 large-10 cell']/ul/li[6]");
     By enFlag = By.xpath("//div[@class='medium-10 large-10 cell']/ul/li[7]");
     By ruFlag = By.xpath("//div[@class='large-10 cell']/ul/li/a/span[@class='flag-icon flag-icon-ru']");
-    By searchBtn = By.xpath("//div[@class='medium-10 large-10 cell']/ul/li[8]");
+    By searchBtn = By.xpath("//i[@class='fa fa-search']");
+    //By searchBtn = By.xpath("//div[@class='medium-10 large-10 cell']/ul/li[8]");
+    //fa fa-search fa-times
 
     // ------ searchbar -------
-    By searchField = By.className("input-group-field");
+    By searchField = By.cssSelector("input[class='input-group-field search-field expand-search']");
+    //By searchField = By.className("input-group-field");
+    //input[class ='input-group-field search-field']
     By closeSearchBtn = By.cssSelector("button.button");
 
     // ======== methods =========
@@ -79,8 +86,8 @@ public class HelperRuHeader extends HelperBase{
      * The method redirects to authentication page
      * by clicking on the "Войти" button
      */
-    public void openAuthPage(){
-        click(loginBtn);
+    public void openAuthLoginPage(){
+        click(signInBtn);
     }
 
     /**
@@ -136,24 +143,24 @@ public class HelperRuHeader extends HelperBase{
      * by clicking on the "Поддержать" button
      */
     public void openDonationSite(){
-        click(donationBtn);
+        click(supportBtn);
     }
 
     /**
-     * The method switches the site language
+     * The method switches the site version
      * from Russian to English
      * by clicking on the United Kingdom flag
      */
-    public void switchLanguageToEnglish(){
+    public void switchVersionToEnglish(){
         click(enFlag);
     }
 
     /**
-     * The method switches the site language
+     * The method switches the site version
      * from English to Russian
      * by clicking on the Russian flag
      */
-    public void switchLanguageToRussian(){
+    public void switchVersuonToRussian(){
         click(ruFlag);
     }
 
@@ -165,8 +172,28 @@ public class HelperRuHeader extends HelperBase{
         click(searchBtn);
     }
 
+    /**
+     * The method returns True if the search field is present on the header
+     * The method returns False if the search field is absent on the header
+     */
+    public boolean isSearchFieldPresent(){
+        return isElementIsPresent(searchField);
+    }
 
+    /**
+     * The method closes the search field
+     */
+    public void closeSearchField(){
+        click(closeSearchBtn);
+    }
 
+    /**
+     * The method returns True if the Search Button (magnifier) is present on the header
+     * The method returns False if the Search Button (magnifier) is absent on the header
+     */
+    public boolean isSearhButtonPresent(){
+        return isElementIsPresent(searchBtn);
+    }
 
 
 }
